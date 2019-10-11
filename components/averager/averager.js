@@ -4,7 +4,7 @@ const averager = new Vue({
   el: '#averager',
   data: {
     guest: 'kamal',
-    firstNumber: 6,
+    firstNumber: 8,
     secondNumber: 2
   },
   computed: {
