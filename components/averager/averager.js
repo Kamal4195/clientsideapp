@@ -1,7 +1,7 @@
-const add = (x, y) => { return x / y }
+const avg = (x, y) => { return x / y }
 
-const adder = new Vue({
-  el: '#adder',
+const averager = new Vue({
+  el: '#averager',
   data: {
     guest: 'kamal',
     firstNumber: 5,
@@ -11,7 +11,7 @@ const adder = new Vue({
     result: function () {
       const i = parseInt(this.firstNumber)
       const j = parseInt(this.secondNumber)
-      return `${this.guest}, displaying workload: ${add(i, j)}.`
+      return `${this.guest}, displaying workload: ${avg(i, j)}.`
     }
   }
 })
